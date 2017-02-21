@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ASUS USA</title>
+
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+  <link href="https://fastcdn.org/Glide.js/2.0.4/css/glide.core.min.css" rel="stylesheet">
+  <link href="https://fastcdn.org/Glide.js/2.0.4/css/glide.theme.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="top-menu" class="ui borderless menu">
+  <div class="ui container">
+    <a class="item"><img class="ui tiny image" src="img/asus-logo-black.png"></a>
+    <!--TODO implement dropdowns-->
+    <div class="ui simple dropdown item">Products</div>
+    <div class="ui simple dropdown item">What's New</div>
+    <div class="ui simple dropdown item">Commercial</div>
+    <div class="ui simple dropdown item">Support</div>
+    <a class="item">Store</a>
+    <a class="right item">LOGIN</a>
+    <div class="item">
+      <div class="ui icon input">
+        <input type="text" placeholder="Search...">
+        <i class="search link icon"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="Glide" class="glide">
+  <div class="glide__wrapper">
+    <ul class="glide__track">
+      <li class="glide__slide"><img src="https://www.asus.com/media/US/banners/fySgvkOC14Uccsix/fySgvkOC14Uccsix-0_0_desktop.jpg" alt=""></li>
+      <li class="glide__slide"><img src="https://www.asus.com/media/US/banners/BKdTGuKVdYCigSxn/BKdTGuKVdYCigSxn-0_0_desktop.jpg" alt=""></li>
+      <li class="glide__slide"><img src="https://www.asus.com/media/US/banners/9juoIY7h1t6MjiQx/9juoIY7h1t6MjiQx-0_0_desktop.jpg" alt=""></li>
+    </ul>
+  </div>
+  <div class="glide__bullets"></div>
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
+<script src="https://fastcdn.org/Glide.js/2.0.4/glide.min.js"></script>
+<script>
+  $(`.dropdown`).dropdown();
+  $("#Glide").glide({
+    type: "slideshow"
+  });
+</script>
+
+</body>
+</html>
