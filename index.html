@@ -2,24 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>ASUS USA</title>
+  <title>ASUS USA (REPLICA)</title>
 
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="style.css" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
-  <link href="https://fastcdn.org/Glide.js/2.0.4/css/glide.core.min.css" rel="stylesheet">
-  <link href="https://fastcdn.org/Glide.js/2.0.4/css/glide.theme.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 </head>
 <body>
 
 <div id="top-menu" class="ui borderless menu">
   <div class="ui container">
-    <a class="item"><img class="ui tiny image" src="img/asus-logo-black.png"></a>
+    <a class="item"><img class="ui image" src="img/asus-logo-black.png" title="ASUS USA"></a>
     <!--TODO implement dropdowns-->
-    <div class="ui simple dropdown item">Products</div>
-    <div class="ui simple dropdown item">What's New</div>
-    <div class="ui simple dropdown item">Commercial</div>
-    <div class="ui simple dropdown item">Support</div>
+    <div class="ui dropdown item">
+      Products
+      <i id="icon" class="dropdown icon"></i>
+      <div class="menu">
+        <a class="item"><i class="laptop icon"></i>Laptops</a>
+        <a class="item"><i class="mobile icon"></i>Smartphones</a>
+        <a class="item"><i class="tablet icon"></i>Tablets</a>
+        <a class="item"><i class="desktop icon"></i>Desktops</a>
+        <a class="item"><i class="keyboard icon"></i>Peripherals</a>
+      </div>
+    </div>
+    <div class="ui dropdown item">
+      What's New
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <a class="item"><i class="calendar icon"></i>Upcoming Events</a>
+        <a class="item"><i class="newspaper icon"></i>News Stories</a>
+      </div>
+    </div>
+    <div class="ui dropdown item">
+      Commercial
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <a class="item"><i class="rocket icon"></i>Startups</a>
+        <a class="item"><i class="building icon"></i>Businesses</a>
+        <a class="item"><i class="student icon"></i>Education</a>
+      </div>
+    </div>
+    <div class="ui dropdown item">
+      Support
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <a class="item"><i class="male icon"></i>Consumer</a>
+        <a class="item"><i class="suitcase icon"></i>Commercial</a>
+      </div>
+    </div>
     <a class="item">Store</a>
     <a class="right item">LOGIN</a>
     <div class="item">
@@ -31,24 +62,112 @@
   </div>
 </div>
 
-<div id="Glide" class="glide">
-  <div class="glide__wrapper">
-    <ul class="glide__track">
-      <li class="glide__slide"><img src="https://www.asus.com/media/US/banners/fySgvkOC14Uccsix/fySgvkOC14Uccsix-0_0_desktop.jpg" alt=""></li>
-      <li class="glide__slide"><img src="https://www.asus.com/media/US/banners/BKdTGuKVdYCigSxn/BKdTGuKVdYCigSxn-0_0_desktop.jpg" alt=""></li>
-      <li class="glide__slide"><img src="https://www.asus.com/media/US/banners/9juoIY7h1t6MjiQx/9juoIY7h1t6MjiQx-0_0_desktop.jpg" alt=""></li>
-    </ul>
+<div class="ui fluid image">
+  <div class="slideshow">
+    <div><img src="img/banner1.jpg" title="200-SERIES MOTHERBOARDS"></div>
+    <div><img src="img/banner2.jpg" title="ROG G701VI"></div>
+    <div><img src="img/banner3.jpg" title="Gaming Monitors"></div>
   </div>
-  <div class="glide__bullets"></div>
+</div>
+
+<div class="ui three column grid">
+  <div class="column">
+    
+  </div>
+</div>
+
+<div class="ui fluid img">
+  <a><img src="img/banner4.jpg" title="AURA"></a>
+</div>
+
+<div id="footer">
+  <div class="ui four column grid container">
+    <div class="column">
+      <span class="header">Want More?</span>
+      <div class="ui list">
+        <a class="item">ASUS ROG</a>
+        <a class="item">Powered By ASUS</a>
+        <a class="item">Rebate Center</a>
+        <a class="item">ASUS Advantage</a>
+        <a class="item">Deal Registration</a>
+        <a class="item">Become a Reseller</a>
+        <a class="item">Insider´s Edge</a>
+        <a class="item">Edge Up</a>
+      </div>
+    </div>
+    <div class="column">
+      <span class="header">Who We Are</span>
+      <div class="ui list">
+        <a class="item">Where to buy</a>
+        <a class="item">Awards</a>
+        <a class="item">Latest News</a>
+        <a class="item">About ASUS</a>
+        <a class="item">Investor Relations</a>
+        <a class="item">Corporate Social Responsibility</a>
+        <a class="item">Careers</a>
+        <a class="item">Press Room</a>
+      </div>
+    </div>
+    <div class="column">
+      <span class="header">Need Help?</span>
+      <div class="ui list">
+        <a class="item">Contact Us</a>
+        <a class="item">ASUS Store</a>
+        <a class="item">Commercial Support</a>
+        <a class="item">Product Registration</a>
+        <a class="item">Security Advisory</a>
+      </div>
+    </div>
+    <div class="column">
+      <span class="header">Community</span>
+      <div class="ui list">
+        <div class="item">
+          <div class="ui horizontal list">
+            <a class="item"><img src="img/facebook.png" title="Facebook"></a>
+            <a class="item"><img src="img/facebook-rog.png" title="Facebook ROG"></a>
+            <a class="item"><img src="img/instagram.png" title="Instagram"></a>
+            <a class="item"><img src="img/instagram-rog.png" title="Instagram ROG"></a>
+            <a class="item"><img src="img/twitter.png" title="Twitter"></a>
+            <a class="item"><img src="img/youtube.png" title="YouTube"></a>
+            <a class="item"><img src="img/myzen.png" title="MyZen"></a>
+            <a class="item"><img src="img/edgeup.png" title="Edge Up"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ui container">
+    <div class="ui borderless menu">
+      <span class="language item"><i class="large world icon"></i></span>
+      <a class="language item">United States / English</a>
+      <a class="legal right item">Terms of Use Notice</a>
+      <span class="legal item">|</span>
+      <a class="legal item">Privacy Policy</a>
+      <span class="legal item">|</span>
+      <span class="legal item">©ASUSTeK Computer Inc. All rights reserved.</span>
+    </div>
+  </div>
 </div>
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
-<script src="https://fastcdn.org/Glide.js/2.0.4/glide.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
 <script>
   $(`.dropdown`).dropdown();
-  $("#Glide").glide({
-    type: "slideshow"
+
+  $(`.slideshow`).slick({
+//    dots: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    fade: true,
+    speed: 1000,
+    arrows: false
+  });
+
+  _.each($(`a`), function(a) {
+    a.href = "https://www.google.com";
   });
 </script>
 
