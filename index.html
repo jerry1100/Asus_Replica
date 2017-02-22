@@ -8,13 +8,13 @@
   <link rel="stylesheet" href="style.css" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
 </head>
 <body>
 
 <div id="top-menu" class="ui borderless menu">
   <div class="ui container">
     <a class="item"><img class="ui image" src="img/asus-logo-black.png" title="ASUS USA"></a>
-    <!--TODO implement dropdowns-->
     <div class="ui dropdown item">
       Products
       <i id="icon" class="dropdown icon"></i>
@@ -72,13 +72,13 @@
 
 <div id="middle-section" class="ui stackable three column grid">
   <div class="column">
-    <a><img class="fluid img" src="img/item1.png"></a>
+    <a><img class="fluid img" src="img/item1.png" title="Chromebook Flip C302"></a>
   </div>
   <div class="column">
-    <a><img class="fluid img" src="img/item2.png"></a>
+    <a><img class="fluid img" src="img/item2.png" title="RT-AC5300"></a>
   </div>
   <div class="column">
-    <a><img class="fluid img" src="img/item3.png"></a>
+    <a><img class="fluid img" src="img/item3.png" title="ROG STRIX GL553VE"></a>
   </div>
 </div>
 
@@ -162,7 +162,6 @@
   $(`.dropdown`).dropdown();
 
   $(`.slideshow`).slick({
-//    dots: true,
     autoplay: true,
     autoplaySpeed: 4000,
     fade: true,
@@ -171,7 +170,7 @@
   });
 
   _.each($(`a`), function(a) {
-    a.href = "https://www.google.com";
+    a.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
   });
 </script>
 
